@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "checks": {
+    "source_row_counts": {
+      "company_info": 12,
+      "income_statement": 60,
+      "balance_sheet": 60,
+      "cashflow": 60,
+      "financial_notes": 60
+    },
+    "company_year_count": 60,
+    "manifest_files_verified": 5,
+    "balance_sheet_balanced": 60,
+    "balance_sheet_rows": 60,
+    "cash_begin_plus_change_equals_end": 60,
+    "cashflow_three_parts_equals_change": 60,
+    "ending_cash_matches_balance_sheet": 60,
+    "net_income_cross_report": 60
+  }
+}
