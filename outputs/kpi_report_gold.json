@@ -1,0 +1,54 @@
+{
+  "metric_tested": 414,
+  "metric_correct": 413,
+  "calculation_accuracy": 0.997585,
+  "metric_mismatches": [
+    {
+      "company_id": "C009",
+      "fiscal_year": 2022,
+      "metric": "revenue_growth_pct",
+      "actual": -1.5250030235143026,
+      "reference": -1.52,
+      "tolerance": 0.0050001
+    }
+  ],
+  "qa_tested": 30,
+  "qa_correct": 30,
+  "numerical_qa_accuracy": 1.0,
+  "qa_mismatches": [],
+  "alert_public_samples": 18,
+  "alert_tp": 12,
+  "alert_fp": 1,
+  "alert_fn": 0,
+  "high_risk_precision": 0.9231,
+  "high_risk_recall": 1.0,
+  "high_risk_f1": 0.96,
+  "note": "Đo riêng nhãn HIGH/CRITICAL trên 18 mẫu công khai; không đại diện ground truth toàn bộ, không được dùng để huấn luyện ngưỡng.",
+  "severity_exact_correct": 17,
+  "severity_exact_tested": 18,
+  "severity_exact_accuracy": 0.944444,
+  "severity_mismatches": [
+    {
+      "company_id": "C009",
+      "fiscal_year": 2024,
+      "severity": "LOW",
+      "predicted_severity": "HIGH",
+      "primary_scenario": "FINANCIAL_RECOVERY",
+      "predicted_primary_scenario": "INVENTORY_BUILDUP"
+    }
+  ],
+  "evidence_reference_count": 484,
+  "evidence_references_verified": 484,
+  "evidence_traceability_rate": 1.0,
+  "evidence_invalid": [],
+  "calculation_verification_pass": 60,
+  "calculation_verification_total": 60,
+  "calculation_verification_rate": 1.0,
+  "alert_evidence_complete_records": 60,
+  "alert_evidence_records": 60,
+  "alerts_triggered": 153,
+  "records": 60,
+  "run_id": "73456b9336a0d19c",
+  "input_fingerprint": "efd17901ea713ad78abccbb3476c5d6aceead67baf86593e9a0020841b7f3f10",
+  "pipeline_runtime_ms": 117.893
+}
