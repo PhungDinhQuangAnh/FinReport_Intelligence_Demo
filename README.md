@@ -65,7 +65,7 @@ KPI cảnh báo chỉ là hậu kiểm trên mẫu public, **không dùng để 
 ## 4. Cấu trúc thư mục
 
 ```text
-FINREPORT_INTELLIGENCE_GOLD/
+FinReport_Intelligence_Demo/
 ├── app.py
 ├── README.md
 ├── requirements.txt
