@@ -54,7 +54,7 @@ KPI cảnh báo chỉ là hậu kiểm trên mẫu public, **không dùng để 
 
 **Lưu ý về QA:** Numerical QA Accuracy 100% là **30/30 câu mẫu BTC**, *không phải* độ chính xác của Financial Analyst Assistant với câu hỏi tự do. Trong mục **Mô phỏng & trợ lý → Financial Analyst Assistant**, ứng dụng tách **Hỏi tự do (rule-based)** và **30 câu QA mẫu BTC**. Câu hỏi CFO C007/2025 (Q002) nay cũng được hỗ trợ ở phần hỏi tự do với kết quả **−20.564 triệu VND** và bằng chứng `cashflow.csv`. Câu hỏi ngoài phạm vi được đánh dấu rõ **Chưa hỗ trợ**.
 
-## 3A. Quy tắc chấm điểm bình quân 14 rule (v1.1)
+## 3A. Quy tắc chấm điểm bình quân 14 rule
 
 - **RuleScore = tổng số rule kích hoạt / 14** (ví dụ 5/14 = 0,3571); bỏ hoàn toàn việc ưu tiên trọng số khác nhau trong các rule.
 - **RiskScore = min(1, 0,88 × RuleScore + 0,12 × AnomalyScore)**.
